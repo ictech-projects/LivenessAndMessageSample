@@ -6,6 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9293FEBD30610D8E00740976 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC03061085E00740976 /* Moya */; };
+		9293FEBE30610D8E00740976 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC13061085E00740976 /* CombineMoya */; };
+		9293FEBF30610D8E00740976 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC23061085E00740976 /* ReactiveMoya */; };
+		9293FEC030610D8E00740976 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC33061085E00740976 /* RxMoya */; };
+		9293FEC230610D8E00740976 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC53061085E00740976 /* SDWebImageSwiftUI */; };
+		9293FEC330610D8E00740976 /* RichText in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC63061085E00740976 /* RichText */; };
+		9293FEC430610D8E00740976 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC73061085E00740976 /* Lottie */; };
+		9293FEC530610D8E00740976 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC83061085E00740976 /* Introspect */; };
+		9293FEC630610D8E00740976 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC93061085E00740976 /* IQKeyboardManagerSwift */; };
+		9293FED030610D8E00740976 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FEE030610D8E00740976 /* FirebaseAuth */; };
+		9293FED130610D8E00740976 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FEE130610D8E00740976 /* FirebaseCore */; };
+		9293FED230610D8E00740976 /* MLKitFaceDetection in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FEE230610D8E00740976 /* MLKitFaceDetection */; };
+		9293FED330610D8E00740976 /* MLKitTextRecognition in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FEE330610D8E00740976 /* MLKitTextRecognition */; };
+		9293FED430610D8E00740976 /* MLKitObjectDetection in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FEE430610D8E00740976 /* MLKitObjectDetection */; };
+		92BC77563066156E001F66A1 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 92BC77553066156E001F66A1 /* StreamChat */; };
+		92BC77583066156E001F66A1 /* StreamChatCommonUI in Frameworks */ = {isa = PBXBuildFile; productRef = 92BC77573066156E001F66A1 /* StreamChatCommonUI */; };
+		92BC775E3066156E001F66A1 /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 92BC775D3066156E001F66A1 /* StreamChatUI */; };
+		A1FE7A0000000000000000F3 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = A1FE7A0000000000000000F2 /* netfox */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9293FA8F3061085E00740976 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +73,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9293FEC630610D8E00740976 /* IQKeyboardManagerSwift in Frameworks */,
+				9293FEC530610D8E00740976 /* Introspect in Frameworks */,
+				9293FEC430610D8E00740976 /* Lottie in Frameworks */,
+				9293FEC330610D8E00740976 /* RichText in Frameworks */,
+				9293FEC230610D8E00740976 /* SDWebImageSwiftUI in Frameworks */,
+				92BC775E3066156E001F66A1 /* StreamChatUI in Frameworks */,
+				92BC77563066156E001F66A1 /* StreamChat in Frameworks */,
+				9293FEC030610D8E00740976 /* RxMoya in Frameworks */,
+				9293FEBF30610D8E00740976 /* ReactiveMoya in Frameworks */,
+				9293FEBE30610D8E00740976 /* CombineMoya in Frameworks */,
+				9293FEBD30610D8E00740976 /* Moya in Frameworks */,
+				9293FED030610D8E00740976 /* FirebaseAuth in Frameworks */,
+				92BC77583066156E001F66A1 /* StreamChatCommonUI in Frameworks */,
+				9293FED130610D8E00740976 /* FirebaseCore in Frameworks */,
+				9293FED230610D8E00740976 /* MLKitFaceDetection in Frameworks */,
+				9293FED330610D8E00740976 /* MLKitTextRecognition in Frameworks */,
+				9293FED430610D8E00740976 /* MLKitObjectDetection in Frameworks */,
+				A1FE7A0000000000000000F3 /* netfox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +151,24 @@
 			);
 			name = MessageAndLiveness;
 			packageProductDependencies = (
+				9293FAC03061085E00740976 /* Moya */,
+				9293FAC13061085E00740976 /* CombineMoya */,
+				9293FAC23061085E00740976 /* ReactiveMoya */,
+				9293FAC33061085E00740976 /* RxMoya */,
+				9293FAC53061085E00740976 /* SDWebImageSwiftUI */,
+				9293FAC63061085E00740976 /* RichText */,
+				9293FAC73061085E00740976 /* Lottie */,
+				9293FAC83061085E00740976 /* Introspect */,
+				9293FAC93061085E00740976 /* IQKeyboardManagerSwift */,
+				9293FEE030610D8E00740976 /* FirebaseAuth */,
+				9293FEE130610D8E00740976 /* FirebaseCore */,
+				9293FEE230610D8E00740976 /* MLKitFaceDetection */,
+				9293FEE330610D8E00740976 /* MLKitTextRecognition */,
+				9293FEE430610D8E00740976 /* MLKitObjectDetection */,
+				92BC77553066156E001F66A1 /* StreamChat */,
+				92BC77573066156E001F66A1 /* StreamChatCommonUI */,
+				92BC775D3066156E001F66A1 /* StreamChatUI */,
+				A1FE7A0000000000000000F2 /* netfox */,
 			);
 			productName = MessageAndLiveness;
 			productReference = 9293FA813061085C00740976 /* MessageAndLiveness.app */;
@@ -195,6 +252,18 @@
 			);
 			mainGroup = 9293FA783061085C00740976;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */,
+				9293FAB23061085E00740976 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				9293FAB33061085E00740976 /* XCRemoteSwiftPackageReference "RichText" */,
+				9293FAB43061085E00740976 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				9293FAB53061085E00740976 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				9293FAB63061085E00740976 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				9293FEF030610D8E00740976 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				9293FEF130610D8E00740976 /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */,
+				92BC77543066156E001F66A1 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+				A1FE7A0000000000000000F1 /* XCRemoteSwiftPackageReference "netfox" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9293FA823061085C00740976 /* Products */;
 			projectDirPath = "";
@@ -323,6 +392,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LM_COMPILE_TIME_EXTRACTION = NO;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -381,6 +451,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LM_COMPILE_TIME_EXTRACTION = NO;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -397,12 +468,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = APL5QSXJ32;
+				DEVELOPMENT_TEAM = UHC82QTTM6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera for a quick liveness check to confirm it's really you.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to verify your identity and provide quick, secure access to your account";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone so you can record and send voice messages in chat.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -410,6 +485,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.indie.MessageAndLiveness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -429,12 +508,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = APL5QSXJ32;
+				DEVELOPMENT_TEAM = UHC82QTTM6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera for a quick liveness check to confirm it's really you.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to verify your identity and provide quick, secure access to your account";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone so you can record and send voice messages in chat.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -442,6 +525,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.indie.MessageAndLiveness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -578,6 +665,182 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		9293FAB23061085E00740976 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+		9293FAB33061085E00740976 /* XCRemoteSwiftPackageReference "RichText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NuPlay/RichText.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.2;
+			};
+		};
+		9293FAB43061085E00740976 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.0;
+			};
+		};
+		9293FAB53061085E00740976 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/timbersoftware/SwiftUI-Introspect.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.6;
+			};
+		};
+		9293FAB63061085E00740976 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.2;
+			};
+		};
+		9293FEF030610D8E00740976 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+		9293FEF130610D8E00740976 /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/d-date/google-mlkit-swiftpm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.2;
+			};
+		};
+		92BC77543066156E001F66A1 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getstream/stream-chat-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.0;
+			};
+		};
+		A1FE7A0000000000000000F1 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9293FAC03061085E00740976 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		9293FAC13061085E00740976 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		9293FAC23061085E00740976 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		9293FAC33061085E00740976 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		9293FAC53061085E00740976 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB23061085E00740976 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		9293FAC63061085E00740976 /* RichText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB33061085E00740976 /* XCRemoteSwiftPackageReference "RichText" */;
+			productName = RichText;
+		};
+		9293FAC73061085E00740976 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB43061085E00740976 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		9293FAC83061085E00740976 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB53061085E00740976 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+		9293FAC93061085E00740976 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB63061085E00740976 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		9293FEE030610D8E00740976 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FEF030610D8E00740976 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9293FEE130610D8E00740976 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FEF030610D8E00740976 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		9293FEE230610D8E00740976 /* MLKitFaceDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FEF130610D8E00740976 /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitFaceDetection;
+		};
+		9293FEE330610D8E00740976 /* MLKitTextRecognition */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FEF130610D8E00740976 /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitTextRecognition;
+		};
+		9293FEE430610D8E00740976 /* MLKitObjectDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FEF130610D8E00740976 /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitObjectDetection;
+		};
+		92BC77553066156E001F66A1 /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92BC77543066156E001F66A1 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+		92BC77573066156E001F66A1 /* StreamChatCommonUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92BC77543066156E001F66A1 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatCommonUI;
+		};
+		92BC775D3066156E001F66A1 /* StreamChatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92BC77543066156E001F66A1 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatUI;
+		};
+		A1FE7A0000000000000000F2 /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1FE7A0000000000000000F1 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9293FA793061085C00740976 /* Project object */;
 }

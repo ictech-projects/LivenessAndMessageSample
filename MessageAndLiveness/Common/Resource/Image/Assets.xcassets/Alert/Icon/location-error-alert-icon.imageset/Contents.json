@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "location-error-alert-icon.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
