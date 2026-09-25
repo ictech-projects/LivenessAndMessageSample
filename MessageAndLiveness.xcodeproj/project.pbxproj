@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9293FEBD30610D8E00740976 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC03061085E00740976 /* Moya */; };
+		9293FEBE30610D8E00740976 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC13061085E00740976 /* CombineMoya */; };
+		9293FEBF30610D8E00740976 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC23061085E00740976 /* ReactiveMoya */; };
+		9293FEC030610D8E00740976 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC33061085E00740976 /* RxMoya */; };
+		9293FEC230610D8E00740976 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC53061085E00740976 /* SDWebImageSwiftUI */; };
+		9293FEC330610D8E00740976 /* RichText in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC63061085E00740976 /* RichText */; };
+		9293FEC430610D8E00740976 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC73061085E00740976 /* Lottie */; };
+		9293FEC530610D8E00740976 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC83061085E00740976 /* Introspect */; };
+		9293FEC630610D8E00740976 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FAC93061085E00740976 /* IQKeyboardManagerSwift */; };
+		9293FED030610D8E00740976 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FEE030610D8E00740976 /* FirebaseAuth */; };
+		9293FED130610D8E00740976 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FEE130610D8E00740976 /* FirebaseCore */; };
+		9293FED230610D8E00740976 /* MLKitFaceDetection in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FEE230610D8E00740976 /* MLKitFaceDetection */; };
+		9293FED330610D8E00740976 /* MLKitTextRecognition in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FEE330610D8E00740976 /* MLKitTextRecognition */; };
+		9293FED430610D8E00740976 /* MLKitObjectDetection in Frameworks */ = {isa = PBXBuildFile; productRef = 9293FEE430610D8E00740976 /* MLKitObjectDetection */; };
+		92BC77563066156E001F66A1 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 92BC77553066156E001F66A1 /* StreamChat */; };
+		92BC77583066156E001F66A1 /* StreamChatCommonUI in Frameworks */ = {isa = PBXBuildFile; productRef = 92BC77573066156E001F66A1 /* StreamChatCommonUI */; };
+		92BC775E3066156E001F66A1 /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 92BC775D3066156E001F66A1 /* StreamChatUI */; };
+		A1FE7A0000000000000000F3 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = A1FE7A0000000000000000F2 /* netfox */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9293FA8F3061085E00740976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9293FA793061085C00740976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9293FA803061085C00740976;
+			remoteInfo = MessageAndLiveness;
+		};
+		9293FA993061085E00740976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9293FA793061085C00740976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9293FA803061085C00740976;
+			remoteInfo = MessageAndLiveness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9293FA813061085C00740976 /* MessageAndLiveness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageAndLiveness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9293FA8E3061085E00740976 /* MessageAndLivenessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageAndLivenessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9293FA983061085E00740976 /* MessageAndLivenessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageAndLivenessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9293FA833061085C00740976 /* MessageAndLiveness */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MessageAndLiveness;
+			sourceTree = "<group>";
+		};
+		9293FA913061085E00740976 /* MessageAndLivenessTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MessageAndLivenessTests;
+			sourceTree = "<group>";
+		};
+		9293FA9B3061085E00740976 /* MessageAndLivenessUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MessageAndLivenessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9293FA7E3061085C00740976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9293FEC630610D8E00740976 /* IQKeyboardManagerSwift in Frameworks */,
+				9293FEC530610D8E00740976 /* Introspect in Frameworks */,
+				9293FEC430610D8E00740976 /* Lottie in Frameworks */,
+				9293FEC330610D8E00740976 /* RichText in Frameworks */,
+				9293FEC230610D8E00740976 /* SDWebImageSwiftUI in Frameworks */,
+				92BC775E3066156E001F66A1 /* StreamChatUI in Frameworks */,
+				92BC77563066156E001F66A1 /* StreamChat in Frameworks */,
+				9293FEC030610D8E00740976 /* RxMoya in Frameworks */,
+				9293FEBF30610D8E00740976 /* ReactiveMoya in Frameworks */,
+				9293FEBE30610D8E00740976 /* CombineMoya in Frameworks */,
+				9293FEBD30610D8E00740976 /* Moya in Frameworks */,
+				9293FED030610D8E00740976 /* FirebaseAuth in Frameworks */,
+				92BC77583066156E001F66A1 /* StreamChatCommonUI in Frameworks */,
+				9293FED130610D8E00740976 /* FirebaseCore in Frameworks */,
+				9293FED230610D8E00740976 /* MLKitFaceDetection in Frameworks */,
+				9293FED330610D8E00740976 /* MLKitTextRecognition in Frameworks */,
+				9293FED430610D8E00740976 /* MLKitObjectDetection in Frameworks */,
+				A1FE7A0000000000000000F3 /* netfox in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9293FA8B3061085E00740976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9293FA953061085E00740976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9293FA783061085C00740976 = {
+			isa = PBXGroup;
+			children = (
+				9293FA833061085C00740976 /* MessageAndLiveness */,
+				9293FA913061085E00740976 /* MessageAndLivenessTests */,
+				9293FA9B3061085E00740976 /* MessageAndLivenessUITests */,
+				9293FA823061085C00740976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9293FA823061085C00740976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9293FA813061085C00740976 /* MessageAndLiveness.app */,
+				9293FA8E3061085E00740976 /* MessageAndLivenessTests.xctest */,
+				9293FA983061085E00740976 /* MessageAndLivenessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9293FA803061085C00740976 /* MessageAndLiveness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9293FAA23061085E00740976 /* Build configuration list for PBXNativeTarget "MessageAndLiveness" */;
+			buildPhases = (
+				9293FA7D3061085C00740976 /* Sources */,
+				9293FA7E3061085C00740976 /* Frameworks */,
+				9293FA7F3061085C00740976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9293FA833061085C00740976 /* MessageAndLiveness */,
+			);
+			name = MessageAndLiveness;
+			packageProductDependencies = (
+				9293FAC03061085E00740976 /* Moya */,
+				9293FAC13061085E00740976 /* CombineMoya */,
+				9293FAC23061085E00740976 /* ReactiveMoya */,
+				9293FAC33061085E00740976 /* RxMoya */,
+				9293FAC53061085E00740976 /* SDWebImageSwiftUI */,
+				9293FAC63061085E00740976 /* RichText */,
+				9293FAC73061085E00740976 /* Lottie */,
+				9293FAC83061085E00740976 /* Introspect */,
+				9293FAC93061085E00740976 /* IQKeyboardManagerSwift */,
+				9293FEE030610D8E00740976 /* FirebaseAuth */,
+				9293FEE130610D8E00740976 /* FirebaseCore */,
+				9293FEE230610D8E00740976 /* MLKitFaceDetection */,
+				9293FEE330610D8E00740976 /* MLKitTextRecognition */,
+				9293FEE430610D8E00740976 /* MLKitObjectDetection */,
+				92BC77553066156E001F66A1 /* StreamChat */,
+				92BC77573066156E001F66A1 /* StreamChatCommonUI */,
+				92BC775D3066156E001F66A1 /* StreamChatUI */,
+				A1FE7A0000000000000000F2 /* netfox */,
+			);
+			productName = MessageAndLiveness;
+			productReference = 9293FA813061085C00740976 /* MessageAndLiveness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9293FA8D3061085E00740976 /* MessageAndLivenessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9293FAA53061085E00740976 /* Build configuration list for PBXNativeTarget "MessageAndLivenessTests" */;
+			buildPhases = (
+				9293FA8A3061085E00740976 /* Sources */,
+				9293FA8B3061085E00740976 /* Frameworks */,
+				9293FA8C3061085E00740976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9293FA903061085E00740976 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9293FA913061085E00740976 /* MessageAndLivenessTests */,
+			);
+			name = MessageAndLivenessTests;
+			packageProductDependencies = (
+			);
+			productName = MessageAndLivenessTests;
+			productReference = 9293FA8E3061085E00740976 /* MessageAndLivenessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9293FA973061085E00740976 /* MessageAndLivenessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9293FAA83061085E00740976 /* Build configuration list for PBXNativeTarget "MessageAndLivenessUITests" */;
+			buildPhases = (
+				9293FA943061085E00740976 /* Sources */,
+				9293FA953061085E00740976 /* Frameworks */,
+				9293FA963061085E00740976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9293FA9A3061085E00740976 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9293FA9B3061085E00740976 /* MessageAndLivenessUITests */,
+			);
+			name = MessageAndLivenessUITests;
+			packageProductDependencies = (
+			);
+			productName = MessageAndLivenessUITests;
+			productReference = 9293FA983061085E00740976 /* MessageAndLivenessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9293FA793061085C00740976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					9293FA803061085C00740976 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					9293FA8D3061085E00740976 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 9293FA803061085C00740976;
+					};
+					9293FA973061085E00740976 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 9293FA803061085C00740976;
+					};
+				};
+			};
+			buildConfigurationList = 9293FA7C3061085C00740976 /* Build configuration list for PBXProject "MessageAndLiveness" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9293FA783061085C00740976;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */,
+				9293FAB23061085E00740976 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				9293FAB33061085E00740976 /* XCRemoteSwiftPackageReference "RichText" */,
+				9293FAB43061085E00740976 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				9293FAB53061085E00740976 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				9293FAB63061085E00740976 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				9293FEF030610D8E00740976 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				9293FEF130610D8E00740976 /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */,
+				92BC77543066156E001F66A1 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+				A1FE7A0000000000000000F1 /* XCRemoteSwiftPackageReference "netfox" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9293FA823061085C00740976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9293FA803061085C00740976 /* MessageAndLiveness */,
+				9293FA8D3061085E00740976 /* MessageAndLivenessTests */,
+				9293FA973061085E00740976 /* MessageAndLivenessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9293FA7F3061085C00740976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9293FA8C3061085E00740976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9293FA963061085E00740976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9293FA7D3061085C00740976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9293FA8A3061085E00740976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9293FA943061085E00740976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9293FA903061085E00740976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9293FA803061085C00740976 /* MessageAndLiveness */;
+			targetProxy = 9293FA8F3061085E00740976 /* PBXContainerItemProxy */;
+		};
+		9293FA9A3061085E00740976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9293FA803061085C00740976 /* MessageAndLiveness */;
+			targetProxy = 9293FA993061085E00740976 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9293FAA03061085E00740976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = APL5QSXJ32;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LM_COMPILE_TIME_EXTRACTION = NO;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9293FAA13061085E00740976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = APL5QSXJ32;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LM_COMPILE_TIME_EXTRACTION = NO;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9293FAA33061085E00740976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UHC82QTTM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera for a quick liveness check to confirm it's really you.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to verify your identity and provide quick, secure access to your account";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone so you can record and send voice messages in chat.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indie.MessageAndLiveness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9293FAA43061085E00740976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UHC82QTTM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera for a quick liveness check to confirm it's really you.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to verify your identity and provide quick, secure access to your account";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone so you can record and send voice messages in chat.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indie.MessageAndLiveness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9293FAA63061085E00740976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APL5QSXJ32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indie.MessageAndLivenessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessageAndLiveness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MessageAndLiveness";
+			};
+			name = Debug;
+		};
+		9293FAA73061085E00740976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APL5QSXJ32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indie.MessageAndLivenessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessageAndLiveness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MessageAndLiveness";
+			};
+			name = Release;
+		};
+		9293FAA93061085E00740976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APL5QSXJ32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indie.MessageAndLivenessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MessageAndLiveness;
+			};
+			name = Debug;
+		};
+		9293FAAA3061085E00740976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APL5QSXJ32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indie.MessageAndLivenessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MessageAndLiveness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9293FA7C3061085C00740976 /* Build configuration list for PBXProject "MessageAndLiveness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9293FAA03061085E00740976 /* Debug */,
+				9293FAA13061085E00740976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9293FAA23061085E00740976 /* Build configuration list for PBXNativeTarget "MessageAndLiveness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9293FAA33061085E00740976 /* Debug */,
+				9293FAA43061085E00740976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9293FAA53061085E00740976 /* Build configuration list for PBXNativeTarget "MessageAndLivenessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9293FAA63061085E00740976 /* Debug */,
+				9293FAA73061085E00740976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9293FAA83061085E00740976 /* Build configuration list for PBXNativeTarget "MessageAndLivenessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9293FAA93061085E00740976 /* Debug */,
+				9293FAAA3061085E00740976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		9293FAB23061085E00740976 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+		9293FAB33061085E00740976 /* XCRemoteSwiftPackageReference "RichText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NuPlay/RichText.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.2;
+			};
+		};
+		9293FAB43061085E00740976 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.0;
+			};
+		};
+		9293FAB53061085E00740976 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/timbersoftware/SwiftUI-Introspect.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.6;
+			};
+		};
+		9293FAB63061085E00740976 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.2;
+			};
+		};
+		9293FEF030610D8E00740976 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+		9293FEF130610D8E00740976 /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/d-date/google-mlkit-swiftpm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.2;
+			};
+		};
+		92BC77543066156E001F66A1 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getstream/stream-chat-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.0;
+			};
+		};
+		A1FE7A0000000000000000F1 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9293FAC03061085E00740976 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		9293FAC13061085E00740976 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		9293FAC23061085E00740976 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		9293FAC33061085E00740976 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB03061085E00740976 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		9293FAC53061085E00740976 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB23061085E00740976 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		9293FAC63061085E00740976 /* RichText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB33061085E00740976 /* XCRemoteSwiftPackageReference "RichText" */;
+			productName = RichText;
+		};
+		9293FAC73061085E00740976 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB43061085E00740976 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		9293FAC83061085E00740976 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB53061085E00740976 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+		9293FAC93061085E00740976 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FAB63061085E00740976 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		9293FEE030610D8E00740976 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FEF030610D8E00740976 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9293FEE130610D8E00740976 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FEF030610D8E00740976 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		9293FEE230610D8E00740976 /* MLKitFaceDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FEF130610D8E00740976 /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitFaceDetection;
+		};
+		9293FEE330610D8E00740976 /* MLKitTextRecognition */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FEF130610D8E00740976 /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitTextRecognition;
+		};
+		9293FEE430610D8E00740976 /* MLKitObjectDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9293FEF130610D8E00740976 /* XCRemoteSwiftPackageReference "google-mlkit-swiftpm" */;
+			productName = MLKitObjectDetection;
+		};
+		92BC77553066156E001F66A1 /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92BC77543066156E001F66A1 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+		92BC77573066156E001F66A1 /* StreamChatCommonUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92BC77543066156E001F66A1 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatCommonUI;
+		};
+		92BC775D3066156E001F66A1 /* StreamChatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92BC77543066156E001F66A1 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatUI;
+		};
+		A1FE7A0000000000000000F2 /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1FE7A0000000000000000F1 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9293FA793061085C00740976 /* Project object */;
+}

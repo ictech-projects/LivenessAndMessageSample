@@ -1,0 +1,3 @@
+enum NavigationPage: Hashable, Equatable {
+	
+}
